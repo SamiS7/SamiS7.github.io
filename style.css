@@ -2,29 +2,44 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: rgb(224, 214, 154);
+}
 h1 {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#fakt {
+    background-color: rgb(11, 224, 189);
+    width: 30vw;
+    margin: 5vh 0 30vh 2vw;
     text-align: center;
 }
 
 #stärke {
     border-left: 3px solid black;
     border-bottom: 3px solid black;
+    margin: 1vh 1vw;
+}
+#stärke h3 {
+    letter-spacing: 10px;
 }
 #mathe {
     background-color: greenyellow;
-    width: 80%;
+    width: 70%;
 }
 #prog {
-    background-color: yellow;
+    background-color: rgb(205, 253, 29);
     width: 60%;
 }
 #webdisign {
-    background-color: greenyellow;
-    width: 90%;
+    background-color: rgb(146, 243, 1);
+    width: 80%;
 }
 #foto {
-    background-color: rgb(211, 238, 59);
-    width: 70%;
+    background-color: rgb(165, 236, 31);
+    width: 75%;
 }
 #ph {
     background-color: rgb(255, 255, 5);
@@ -38,7 +53,7 @@ h1 {
 #schlecht {
     color: red;
     position: absolute;
-    left: 0%;
+    left: 1vw;
     border-left: 3px solid red;
 }
 #gut {
@@ -52,4 +67,8 @@ h1 {
     position: absolute;
     left: 80%;
     border-left: 3px solid rgb(55, 231, 55);
+}
+
+h2 {
+    text-align: center;
 }
