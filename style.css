@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+
+#stärke {
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+#mathe {
+    background-color: greenyellow;
+    width: 80%;
+}
+#prog {
+    background-color: yellow;
+    width: 60%;
+}
+#webdisign {
+    background-color: greenyellow;
+    width: 90%;
+}
+#foto {
+    background-color: rgb(211, 238, 59);
+    width: 70%;
+}
+#ph {
+    background-color: rgb(255, 255, 5);
+    width: 45%;
+}
+#sport  {
+    background-color: rgb(55, 231, 55);
+    width: 95%;
+}
+
+#schlecht {
+    color: red;
+    position: absolute;
+    left: 0%;
+    border-left: 3px solid red;
+}
+#gut {
+    color: yellowgreen;
+    position: absolute;
+    left: 50%;
+    border-left: 3px solid yellowgreen;
+}
+#sGut {
+    color: rgb(55, 231, 55);
+    position: absolute;
+    left: 80%;
+    border-left: 3px solid rgb(55, 231, 55);
+}
